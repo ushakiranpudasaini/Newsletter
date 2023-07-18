@@ -1,0 +1,67 @@
+<html class="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                },
+                fontFamily: {
+                    poppins: ['Poppins', 'sans-serif'],
+                    Montserrat: ['Montserrat', 'sans-serif']
+                },
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins&display=swap" rel="stylesheet">
+    <title>
+        news5
+    </title>
+</head>
+
+<body class="dark:bg-gray-800">
+    <section class="flex items-center h-screen bg-gray-100 font-poppins dark:bg-gray-900 ">
+        <div class="justify-center flex-1 px-4 py-4 mx-auto lg:py-10 md:px-7">
+            <div class="relative max-w-6xl mx-auto overflow-hidden rounded-md shadow bg-gray-50 dark:bg-gray-800">
+                <div class="z-20 w-full px-4 py-12 lg:w-1/2 text-start sm:px-6 lg:py-16 lg:px-8">
+                    <span class="mb-2 text-lg font-bold text-blue-500">Hey, wait...</span>
+                    <h2 class="mb-4 text-2xl font-bold md:text-3xl dark:text-gray-300">
+                        Subscribe for our newsletter !
+                    </h2>
+                    <p class="mb-4 text-base font-medium text-gray-500 md:text-lg dark:text-gray-400">
+                        Lorem ipsum dor amet set ispisucs ipsum amet dor lorem isodispus
+                    </p>
+                    <div class="md:flex">
+                        <div class="w-full ">
+                            <div class="relative flex flex-wrap">
+                                <input type="text"
+                                    class="w-full px-4 pr-20 bg-gray-100 border border-gray-200 rounded-md dark:text-gray-400 dark:bg-gray-700 dark:border-gray-800 h-14 "
+                                    name="" placeholder="Drop your mail..">
+                                <button
+                                    class="absolute hidden h-10 px-3 text-sm text-white bg-blue-500 rounded md:block top-2 right-2 hover:bg-blue-600 ">
+                                    Subscribe Now</button>
+                                <button
+                                    class="block px-3 py-4 mt-4 text-sm text-white bg-blue-500 rounded md:hidden hover:bg-blue-600">
+                                    Subscribe Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="https://i.postimg.cc/bJvYrWY5/pexels-johnmark-smith-211290.jpg"
+                    class="absolute top-0 right-0 hidden w-1/2 h-full lg:block rounded-tr-md rounded-br-md" />
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
